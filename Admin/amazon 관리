@@ -1,0 +1,10 @@
+# Day 7
+## AMAZON 관리
+### EBS
+[볼륨 확장](http://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ebs-expand-volume.html)
+
+### instance
+[인스탄스 크기 변경](http://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-instance-resize.html)
+
+#### 인스탄스 비교
+[인스탄스 비교 링크](http://www.ec2instances.info/?selected=t2.small,m4.large,d2.xlarge)

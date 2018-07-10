@@ -1,0 +1,11 @@
+# Swift 공부 1일차
+- let value : Int = someOptional ?? 0
+- var dict:[String:Int]=[:]
+- typealias Person = (name: String, age:Int)
+- typealias multipleMethod = (Int, Int) -> Int
+- /** 또는 ///쓰기 (주석)
+- switch에서 break 문 쓸 필요 없음
+- switch문에서 다음 case도 지나치게 하려면 fallthrough 써야 함
+- (void)와 () Void 는 같은 의미
+- struct에서 프로퍼티를 값을 변경하는 함수는 mutating 키워드 필요!
+- a = 0 : willSet -> set -> didSet

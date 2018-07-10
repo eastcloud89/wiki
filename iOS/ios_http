@@ -1,0 +1,5 @@
+#Day 3
+
+##HTTP 요청 되게 하는 법(iOS)
+	<key>NSAllowsArbitraryLoads</key>
+    <true/>

@@ -1,0 +1,22 @@
+# Day 4
+
+## Proxy 설정
+**Ubuntu /etc/apache2/sites-available/000-default-le-ssl.conf** 
+
+	SSLEngine On
+	SSLProxyEngine On
+	ProxyPreserveHost On
+	ProxyRequests off
+	<Proxy *>
+	        Order   deny,allow
+	        Allow   from all
+	</Proxy>
+	<Location /sns>
+	       ProxyPass https://localhost:3333
+	       ProxyPassReverse https://localhost:3333
+	</Location>
+	
+## Postman SSL
+
+[링크 확인](http://blog.getpostman.com/2014/01/28/using-self-signed-certificates-with-postman/)
+	
